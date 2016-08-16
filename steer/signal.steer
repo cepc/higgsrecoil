@@ -22,7 +22,7 @@ ProcessorType HiggsRecoil
 
     LeptonIDTag 13
 
-    TreeOutputFile   ../result/signal.root
+    TreeOutputFile   result/signal.root
 .end -------------------------------------------------
 					
 
