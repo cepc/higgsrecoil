@@ -1,0 +1,39 @@
+
+.begin Global  ---------------------------------------
+
+LCIOInputFiles /besfs/groups/higgs/data/SimReco/wo_BS/RecData/e2e2h/E250-CDR_ws.Pe2e2h.eU.pU.00001.slcio
+
+ActiveProcessors MyHiggsRecoil
+MaxRecordNumber -1
+
+.end   -----------------------------------------------
+
+.begin MyHiggsRecoil
+ProcessorType HiggsRecoil
+
+#       The name of the PFOs
+#        type:  [string]
+#        default: MCParticle
+        MCObjects   MCParticle
+
+    OverwriteFile   0
+
+    TreeName   MCPart
+
+    LeptonIDTag 13
+
+    TreeOutputFile   ../result/signal.root
+.end -------------------------------------------------
+					
+
+
+
+
+
+
+
+
+
+
+
+
