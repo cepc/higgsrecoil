@@ -1,16 +1,15 @@
 # Higgs Recoil Analysis
 
 
-# Install on lxslc6 
-```bash
-git clone https://github.com/cepc/higgsrecoil.git . 
-```
+## Install on lxslc6 
+> git clone https://github.com/cepc/higgsrecoil.git . 
 
-# Build code
+
+## Build code
 
 > ./build.sh
 
-# Submit jobs
+## Submit jobs
 
 > ./submit.sh
 
@@ -19,15 +18,15 @@ git clone https://github.com/cepc/higgsrecoil.git .
 
 - Fork the code with your personal github ID. See [details](https://help.github.com/articles/fork-a-repo/)
 
-```
-git clone https://github.com/yourid/higgsrecoil.git .
-```
+
+> git clone git@github.com:yourid/higgsrecoil.git .
+
 - Make your change, commit and push 
-```
-git commit -a -m "Added feature A, B, C"
-git push
-```
-- Make a pull request agains the cepc. See [details](https://help.github.com/articles/using-pull-requests/)
+
+> git commit -a -m "Added feature A, B, C"
+> git push
+
+- Make a pull request to cepc. See [details](https://help.github.com/articles/using-pull-requests/)
 
 
 
