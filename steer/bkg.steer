@@ -1,0 +1,39 @@
+
+.begin Global  ---------------------------------------
+
+LCIOInputFiles /cefs/higgs/weiyq/E250.Pzz_l.e0.p0.whizard195_bkg/rec/Pzz_l04mu.e0.p0.00001_rec.slcio
+
+ActiveProcessors MyHiggsRecoil
+MaxRecordNumber -1
+
+.end   -----------------------------------------------
+
+.begin MyHiggsRecoil
+ProcessorType HiggsRecoil
+
+#       The name of the PFOs
+#        type:  [string]
+#        default: MCParticle
+        MCObjects   MCParticle
+
+    OverwriteFile   0
+
+    TreeName   MCPart
+
+    LeptonIDTag 13
+
+    TreeOutputFile   result/bkg.root
+.end -------------------------------------------------
+					
+
+
+
+
+
+
+
+
+
+
+
+
