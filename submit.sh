@@ -26,7 +26,7 @@ case $option in
     0.1.1) echo "Running on signal sample..."
 	   unset MARLIN_DLL
 	   export MARLIN_DLL=./lib/libHiggsRecoilMass.so
-	   source /besfs/groups/higgs/Software/v01-17-05_slc6/init_ilcsoft.sh 
+	   mkdir result 
 	   Marlin steer/signal.steer 
 	   ;;
    

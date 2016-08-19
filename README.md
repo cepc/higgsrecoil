@@ -4,6 +4,9 @@
 ## Install on lxslc6 
 > git clone https://github.com/cepc/higgsrecoil.git . 
 
+## Setup env
+
+> source setup.sh 
 
 ## Build code
 
