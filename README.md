@@ -33,3 +33,4 @@
 
 
 # li gang tested, found a bug in setup.sh 
+# 前排小板凳
