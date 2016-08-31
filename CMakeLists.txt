@@ -78,6 +78,7 @@ ENDIF()
 # -pendatic: does not allow variable array size
 ADD_DEFINITIONS( "-Wall -ansi" )
 ADD_DEFINITIONS( "-Wno-long-long" )
+ADD_DEFINITIONS( "-std=C++11" )
 
 # include directories
 INCLUDE_DIRECTORIES( ./include )
