@@ -510,7 +510,9 @@ void HiggsRecoil::processEvent( LCEvent * evtP )
 			_Num++;
 
 		}		
-		catch (lcio::DataNotAvailableException err) { }
+		catch (lcio::DataNotAvailableException err) { 
+			std::cerr<<"information of exception#"<<err.what()<<std::endl;
+		}
 
 	}  	  
 
