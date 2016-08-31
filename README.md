@@ -32,4 +32,4 @@
 - Make a pull request to cepc. See [details](https://help.github.com/articles/using-pull-requests/)
 
 
-
+# li gang tested, found a bug in setup.sh 
