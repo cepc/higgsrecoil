@@ -74,7 +74,7 @@ void HiggsRecoil::init() {
 
 	if (!tree_file->IsOpen()) {
 		delete tree_file;
-		tree_file=new TFile(_treeFileName.c_str(),"NEW");
+		tree_file=new TFile(_treeFileName.c_str(),"RECREATE");
 	}
 
 	_outputTree = new TTree(_treeName.c_str(),_treeName.c_str());
